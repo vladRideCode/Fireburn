@@ -14,5 +14,5 @@ const mapDispatchToProps = dispatch => {
     }
 };
 
-const LoaderScreen = connect(mapStateToProps)(Loader);
-export default LoaderScreen;
+export default connect(mapStateToProps)(Loader);
+ // LoaderScreen;
